@@ -4,19 +4,13 @@
 function isValid($s)
 {
     $excess = 0;
-    $letters = [];
-    foreach (str_split($s) as $letter) {
-        if (isset($letters[$letter])) {
-            $letters[$letter]++;
-        } else {
-            $letters[$letter] = 1;
-        }
-    }
+    $split = str_split($s);
+    $values = array_count_values($split);
 
     $total = [];
-    $letters = array_values($letters);
-    foreach ($letters as $count) {
-        if (isset($letters[$letter])) {
+    $tmp = array_values($values);
+    foreach ($tmp as $count) {
+        if (isset($total[$count])) {
             $total[$count]++;
         } else {
             $total[$count] = 1;
@@ -26,8 +20,8 @@ function isValid($s)
     arsort($total);
     $maxCount = key($total);
 
-    foreach ($letters as $count) {
-        if ($count !== $maxCount) {
+    foreach ($values as $letter => $count) {
+        if (abs($count - $maxCount) > 0) {
             $excess++;
         }
     }
