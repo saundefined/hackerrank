@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Minimum Distances
+ * @link https://www.hackerrank.com/challenges/minimum-distances
+ * @status solved
+ */
+
 // Complete the minimumDistances function below.
-function minimumDistances($a)
-{
+function minimumDistances($a) {
     $result = [];
     foreach ($a as $k => $number) {
         $result[$number][] = $k;

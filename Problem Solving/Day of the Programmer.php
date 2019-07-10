@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Day of the Programmer
+ * @link https://www.hackerrank.com/challenges/day-of-the-programmer
+ * @status solved
+ */
+
 // Complete the dayOfProgrammer function below.
-function dayOfProgrammer($year)
-{
+function dayOfProgrammer($year) {
     $isJulian = $year >= 1700 && $year <= 1917;
     $isGregorian = $year >= 1919;
 

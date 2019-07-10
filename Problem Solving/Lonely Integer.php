@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Lonely Integer
+ * @link https://www.hackerrank.com/challenges/lonely-integer
+ * @status solved
+ */
+
 // Complete the lonelyinteger function below.
-function lonelyinteger($a)
-{
+function lonelyinteger($a) {
     $result = [];
     foreach ($a as $item) {
         if (isset($result[$item])) {

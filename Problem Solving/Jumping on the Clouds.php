@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Jumping on the Clouds
+ * @link https://www.hackerrank.com/challenges/jumping-on-the-clouds
+ * @status solved
+ */
+
 // Complete the jumpingOnClouds function below.
-function jumpingOnClouds($c)
-{
+function jumpingOnClouds($c) {
     $steps = 0;
     $current = 0;
 

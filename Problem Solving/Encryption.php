@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Encryption
+ * @link https://www.hackerrank.com/challenges/encryption
+ * @status solved
+ */
+
 // Complete the encryption function below.
-function encryption($s)
-{
+function encryption($s) {
     $string = preg_replace('~\W~', '', $s);
     $length = strlen($string);
     $sqrt = ceil(sqrt($length));

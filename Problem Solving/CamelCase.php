@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title CamelCase
+ * @link https://www.hackerrank.com/challenges/camelcase
+ * @status solved
+ */
+
 // Complete the camelcase function below.
-function camelcase($s)
-{
+function camelcase($s) {
     $wordsCount = 0;
     $splitWord = str_split($s);
 

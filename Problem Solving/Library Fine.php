@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Library Fine
+ * @link https://www.hackerrank.com/challenges/library-fine
+ * @status solved
+ */
+
 // Complete the libraryFine function below.
-function libraryFine($d1, $m1, $y1, $d2, $m2, $y2)
-{
+function libraryFine($d1, $m1, $y1, $d2, $m2, $y2) {
     if (mktime(0, 0, 0, $m1, $d1, $y1) < mktime(0, 0, 0, $m2, $d2, $y2)) {
         return 0;
     }

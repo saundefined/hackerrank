@@ -1,10 +1,15 @@
 <?php
 
+/**
+ * @title Time Conversion
+ * @link https://www.hackerrank.com/challenges/time-conversion
+ * @status solved
+ */
+
 /*
  * Complete the timeConversion function below.
  */
-function timeConversion($s)
-{
+function timeConversion($s) {
     preg_match('/([0-9]+):([0-9]+):([0-9]+)(AM|PM)/', $s, $times);
     $hours = $times[1];
     $minutes = $times[2];

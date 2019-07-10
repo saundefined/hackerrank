@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title HackerRank in a String!
+ * @link https://www.hackerrank.com/challenges/hackerrank-in-a-string
+ * @status solved
+ */
+
 // Complete the hackerrankInString function below.
-function hackerrankInString($s)
-{
+function hackerrankInString($s) {
     $word = 'hackerrank';
     foreach (str_split($s) as $letter) {
         if ($letter === $word[0]) {

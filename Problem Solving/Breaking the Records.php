@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Breaking the Records
+ * @link https://www.hackerrank.com/challenges/breaking-best-and-worst-records
+ * @status solved
+ */
+
 // Complete the breakingRecords function below.
-function breakingRecords($scores)
-{
+function breakingRecords($scores) {
     $currentMaxScore = 0;
     $currentMinScore = 0;
 

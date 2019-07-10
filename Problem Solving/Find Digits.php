@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Find Digits
+ * @link https://www.hackerrank.com/challenges/find-digits
+ * @status solved
+ */
+
 // Complete the findDigits function below.
-function findDigits($n)
-{
+function findDigits($n) {
     $count = 0;
 
     foreach (str_split($n) as $number) {

@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Funny String
+ * @link https://www.hackerrank.com/challenges/funny-string
+ * @status solved
+ */
+
 // Complete the funnyString function below.
-function funnyString($s)
-{
+function funnyString($s) {
     $first = [];
     $second = [];
 

@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title A Very Big Sum
+ * @link https://www.hackerrank.com/challenges/a-very-big-sum
+ * @status solved
+ */
+
 // Complete the aVeryBigSum function below.
-function aVeryBigSum($ar)
-{
+function aVeryBigSum($ar) {
     return array_sum($ar);
 }
 

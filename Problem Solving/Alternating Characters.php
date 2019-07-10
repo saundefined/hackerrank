@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Alternating Characters
+ * @link https://www.hackerrank.com/challenges/alternating-characters
+ * @status solved
+ */
+
 // Complete the alternatingCharacters function below.
-function alternatingCharacters($s)
-{
+function alternatingCharacters($s) {
     $arrayOfLetters = str_split($s);
     $countOfRemoving = 0;
 

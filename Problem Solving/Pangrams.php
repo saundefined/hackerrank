@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Pangrams
+ * @link https://www.hackerrank.com/challenges/pangrams
+ * @status solved
+ */
+
 // Complete the pangrams function below.
-function pangrams($s)
-{
+function pangrams($s) {
     $letters = range('a', 'z');
     $word = str_split(strtolower($s));
 

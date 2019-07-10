@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Plus Minus
+ * @link https://www.hackerrank.com/challenges/plus-minus
+ * @status solved
+ */
+
 // Complete the plusMinus function below.
-function plusMinus($arr)
-{
+function plusMinus($arr) {
     $positives = 0;
     $negatives = 0;
     $zeros = 0;

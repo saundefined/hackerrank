@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Missing Numbers
+ * @link https://www.hackerrank.com/challenges/missing-numbers
+ * @status solved
+ */
+
 // Complete the missingNumbers function below.
-function missingNumbers($arr, $brr)
-{
+function missingNumbers($arr, $brr) {
     $acount = [];
     foreach ($arr as $number) {
         if (isset($acount[$number])) {

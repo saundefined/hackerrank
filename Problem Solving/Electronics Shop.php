@@ -1,10 +1,15 @@
 <?php
 
+/**
+ * @title Electronics Shop
+ * @link https://www.hackerrank.com/challenges/electronics-shop
+ * @status solved
+ */
+
 /*
  * Complete the getMoneySpent function below.
  */
-function getMoneySpent($keyboards, $drives, $b)
-{
+function getMoneySpent($keyboards, $drives, $b) {
     rsort($keyboards);
     rsort($drives);
 

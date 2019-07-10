@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title The Time in Words
+ * @link https://www.hackerrank.com/challenges/the-time-in-words
+ * @status solved
+ */
+
 // Complete the timeInWords function below.
-function timeInWords($h, $m)
-{
+function timeInWords($h, $m) {
     $hours = [1 => 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
     $minutes = [
         'o\' clock',

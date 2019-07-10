@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Gemstones
+ * @link https://www.hackerrank.com/challenges/gem-stones
+ * @status solved
+ */
+
 // Complete the gemstones function below.
-function gemstones($arr)
-{
+function gemstones($arr) {
     $countOfStones = count($arr);
     $elements = [];
 

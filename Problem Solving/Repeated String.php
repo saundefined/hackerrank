@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Repeated String
+ * @link https://www.hackerrank.com/challenges/repeated-string
+ * @status solved
+ */
+
 // Complete the repeatedString function below.
-function repeatedString($s, $n)
-{
+function repeatedString($s, $n) {
     $strLength = strlen($s);
 
     $needLetter = 'a';

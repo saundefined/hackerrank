@@ -1,8 +1,14 @@
 <?php
 
+/**
+ * @title Compare the Triplets
+ * @link https://www.hackerrank.com/challenges/compare-the-triplets
+ * @status solved
+ */
+
+
 // Complete the compareTriplets function below.
-function compareTriplets($a, $b)
-{
+function compareTriplets($a, $b) {
     $aValue = 0;
     $bValue = 0;
 

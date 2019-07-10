@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Equalize the Array
+ * @link https://www.hackerrank.com/challenges/equality-in-a-array
+ * @status solved
+ */
+
 // Complete the equalizeArray function below.
-function equalizeArray($arr)
-{
+function equalizeArray($arr) {
     $count = 0;
     $numbers = [];
     foreach ($arr as $number) {

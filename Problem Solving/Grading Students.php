@@ -1,10 +1,15 @@
 <?php
 
+/**
+ * @title Grading Students
+ * @link https://www.hackerrank.com/challenges/grading
+ * @status solved
+ */
+
 /*
  * Complete the gradingStudents function below.
  */
-function gradingStudents($grades)
-{
+function gradingStudents($grades) {
     $final = [];
     foreach ($grades as $grade) {
         if ($grade % 5 === 0) {

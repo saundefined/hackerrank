@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Diagonal Difference
+ * @link https://www.hackerrank.com/challenges/diagonal-difference
+ * @status solved
+ */
+
 // Complete the diagonalDifference function below.
-function diagonalDifference($arr)
-{
+function diagonalDifference($arr) {
     $first = 0;
     $second = 0;
     $count = count($arr);
