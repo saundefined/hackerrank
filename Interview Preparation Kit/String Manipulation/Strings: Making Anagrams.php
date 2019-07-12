@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * @title Strings: Making Anagrams
+ * @link https://www.hackerrank.com/challenges/ctci-making-anagrams
+ * @status solved
+ */
+
 // Complete the makeAnagram function below.
-function makeAnagram($a, $b)
-{
+function makeAnagram($a, $b) {
     $a = str_split($a);
     $b = str_split($b);
 
